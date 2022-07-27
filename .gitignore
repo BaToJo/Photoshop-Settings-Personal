@@ -1,0 +1,9 @@
+# Ignore everything...
+*
+
+# ...except for:
+!.gitignore
+!Presets
+!Presets/**
+!Adobe Photoshop 2022 Settings
+!Adobe Photoshop 2022 Settings/**

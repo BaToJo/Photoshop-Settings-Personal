@@ -1,0 +1,183 @@
+Number of Launches: 6
+stdout:
+[0 ms]
+  Launch GPUSnifferThread
+
+[1 ms]
+  Start RunAllAPIs
+
+[1 ms]
+  "C:\Photoshop Portable\App\Photoshop\sniffer.exe" -baseTimeMS=1847201 -comment=Photoshop Version: Adobe Photoshop 23.1.1 20220106.r.202 060a6d1 x64
+
+[2972 ms]
+  Start sniffer 2022-07-27 10:28:52
+  # Photoshop Version: Adobe Photoshop 23.1.1 20220106.r.202 060a6d1 x64
+  C:\Photoshop Portable\App\Photoshop\sniffer.exe -baseTimeMS=1847201 -comment=Photoshop Version: Adobe Photoshop 23.1.1 20220106.r.202 060a6d1 x64
+  
+  {184 ms}
+  Start platform native
+    # displays:                   1
+    Display 0
+      Display:                      \\.\DISPLAY1
+      Main:                         TRUE
+      Built in:                     FALSE
+      Stereo:                       FALSE
+      Bounds:                       ((0 0) -> (1,536 864), w=1,536, h=864)
+      Dimensions:                   (1,536 864)
+      Physical size:                (0 0)
+      Pixel size:                   (0 0)
+      Dynamic range:                (0 1)
+      Potential dynamic range:      (0 1)
+      Reference dynamic range:      (0 0)
+      Attached Device:              (DeviceID name=NVIDIA GeForce RTX 2060 with Max-Q Design index=0 preferred=1)
+    
+    # devices:                    2
+    Device 0
+      Name:                         NVIDIA GeForce RTX 2060 with Max-Q Design
+      Preferred:                    TRUE
+      Power Envelope:               UNKNOWN
+      Attachment:                   UNKNOWN
+      # attached displays:          1
+        \\.\DISPLAY1
+      GPU accessible RAM:                6,270 MB
+      VRAM:                              6,270 MB
+      Dedicated System RAM:                  0 MB
+      Shared System RAM:                 8,467 MB
+      API version:                  12.0 (12.0)
+      Device version:               12.0 (12.0)
+      Vendor name:                  NVIDIA
+      Driver:                       C:\WINDOWS\System32\DriverStore\FileRepository\nvhm.inf_amd64_4a2f8a62d5686839\nvldumdx.dll
+      Driver date:                  2022-05-05 000000.000000-000
+      Driver age:                   2 months
+      Driver version:               30.0.15.1278
+      Supports UMA:                 UNSUPPORTED
+      D3D-ID:                       7954
+    
+    Device 1
+      Name:                         Intel(R) UHD Graphics
+      Preferred:                    FALSE
+      Power Envelope:               UNKNOWN
+      Attachment:                   UNKNOWN
+      # attached displays:          0
+      GPU accessible RAM:                8,601 MB
+      VRAM:                                134 MB
+      Dedicated System RAM:                  0 MB
+      Shared System RAM:                 8,467 MB
+      API version:                  12.0 (12.0)
+      Device version:               12.0 (12.0)
+      Vendor name:                  INTEL
+      Driver:
+        C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_c8dae5f0f8089ba8\igd10iumd64.dll
+        C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_c8dae5f0f8089ba8\igd12umd64.dll
+        C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_c8dae5f0f8089ba8\igdumdim64.dll
+      Driver date:                  2020-10-28 000000.000000-000
+      Driver age:                   21 months
+      Driver version:               27.20.100.8935
+      Supports UMA:                 SUPPORTED
+      D3D-ID:                       39876
+  End platform native
+  {1735 ms}
+  
+  {1735 ms}
+  Start platform OpenGL
+    # displays:                   1
+    Display 0
+      Display:                      \\.\DISPLAY1
+      Main:                         TRUE
+      Built in:                     FALSE
+      Stereo:                       FALSE
+      Bounds:                       ((0 0) -> (1,536 864), w=1,536, h=864)
+      Dimensions:                   (1,536 864)
+      Physical size:                (0 0)
+      Pixel size:                   (0 0)
+      Dynamic range:                (0 1)
+      Potential dynamic range:      (0 1)
+      Reference dynamic range:      (0 0)
+      Attached Device:              (DeviceID name=NVIDIA GeForce RTX 2060 with Max-Q Design/PCIe/SSE2 index=0 preferred=1)
+    
+    # devices:                    1
+    Device 0
+      Name:                         NVIDIA GeForce RTX 2060 with Max-Q Design/PCIe/SSE2
+      Preferred:                    TRUE
+      Power Envelope:               INTEGRATED
+      Attachment:                   UNKNOWN
+      # attached displays:          1
+        \\.\DISPLAY1
+      GPU accessible RAM:                6,270 MB
+      VRAM:                              6,270 MB
+      Dedicated System RAM:                  0 MB
+      Shared System RAM:                 8,467 MB
+      API version:                  2.1 (2.1.2 NVIDIA 512.78)
+      Device version:               2.1 (2.1.2 NVIDIA 512.78)
+      Vendor name:                  NVIDIA
+      Driver:                       C:\WINDOWS\System32\DriverStore\FileRepository\nvhm.inf_amd64_4a2f8a62d5686839\nvldumdx.dll
+      Driver date:                  2022-05-05 000000.000000-000
+      Driver age:                   2 months
+      Driver version:               30.0.15.1278
+      GLSL version:                 1.20 (1.20 NVIDIA via Cg compiler)
+  End platform OpenGL
+  {1942 ms}
+  
+  {1942 ms}
+  Start platform OpenCL
+    # displays:                   0
+    
+    # devices:                    2
+    Device 0
+      Name:                         NVIDIA GeForce RTX 2060 with Max-Q Design
+      Preferred:                    TRUE
+      Power Envelope:               DISCRETE
+      Attachment:                   UNKNOWN
+      # attached displays:          0
+      GPU accessible RAM:                6,442 MB
+      VRAM:                              6,442 MB
+      Dedicated System RAM:                  0 MB
+      Shared System RAM:                     0 MB
+      API version:                  3.0 (OpenCL 3.0 CUDA)
+      Device version:               3.0 (OpenCL 3.0 CUDA)
+      Vendor name:                  NVIDIA
+      Driver:                       UNKNOWN
+      Driver date:                  UNKNOWN
+      Driver age:                   UNKNOWN
+      Driver version:               UNKNOWN
+      Bandwidth:                    29 GB / s
+      Compute score:                1,726.13
+      Device name string:           NVIDIA GeForce RTX 2060 with Max-Q Design
+      Device vendor string:         NVIDIA Corporation
+      Platform name string:         NVIDIA CUDA 
+      Platform vendor string:       NVIDIA Corporation
+    
+    Device 1
+      Name:                         Intel(R) UHD Graphics
+      Preferred:                    FALSE
+      Power Envelope:               INTEGRATED
+      Attachment:                   UNKNOWN
+      # attached displays:          0
+      GPU accessible RAM:                6,774 MB
+      VRAM:                              6,774 MB
+      Dedicated System RAM:                  0 MB
+      Shared System RAM:                     0 MB
+      API version:                  3.0 (OpenCL 3.0 )
+      Device version:               3.0 (OpenCL 3.0 NEO )
+      Vendor name:                  INTEL
+      Driver:                       UNKNOWN
+      Driver date:                  UNKNOWN
+      Driver age:                   UNKNOWN
+      Driver version:               UNKNOWN
+      Bandwidth:                    30 GB / s
+      Compute score:                191.783
+      Device name string:           Intel(R) UHD Graphics
+      Device vendor string:         Intel(R) Corporation
+      Platform name string:         Intel(R) OpenCL HD Graphics
+      Platform vendor string:       Intel(R) Corporation
+  End platform OpenCL
+  {2856 ms}
+  
+  Exit code kExitNormal
+  End sniffer 2022-07-27 10:28:55
+[kStatusNormal, kExitNormal]
+
+[2973 ms]
+  Finish RunAllAPIs
+
+stderr:
